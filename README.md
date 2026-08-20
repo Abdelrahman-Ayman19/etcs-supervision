@@ -12,7 +12,7 @@ aufgezeichneten Fahrt und meldet jede Überschreitung mit Ort und Betrag.
 Das Modell ist stark vereinfacht und bildet **nicht** die echten ETCS-Bremskurven
 nach Subset-026 ab. Mir ging es um die Methodik, nicht um Normtreue.
 
-![Beispielauswertung](beispiel.png)
+![Beispielauswertung](ride.png)
 
 ## Ausführen
 
