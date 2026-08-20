@@ -81,3 +81,21 @@ wichtiger, denn ein Werkzeug mit Fehlalarmen wird nach kurzer Zeit ignoriert.
 - Steigungen und wechselnde Streckenhöchstgeschwindigkeiten
 - echte Aufzeichnungsformate statt CSV einlesen
 - die wiederholten Testfälle über `subTest` parametrisieren
+
+
+## Browser-Tests
+
+Selenium hatte ich vorher nicht benutzt, deshalb ist hier zusätzlich ein kleiner
+Browser-Test gegen die offizielle Übungsseite von Selenium. Er läuft über dasselbe
+`unittest` wie die Fachlogik.
+
+- `web_form_page.py` — Page Object: alle Locator an einer Stelle, Waits in den Methoden
+- `test_web_form.py` — der Test
+
+```bash
+python -m unittest test_web_form        # headless
+HEADLESS=0 python -m unittest test_web_form   # mit sichtbarem Browser
+```
+
+Statt `sleep` überall explizite Waits, weil Timing die häufigste Ursache für
+instabile Browser-Tests ist. `sleep` habe ich trotzdem nur für Sichtbarkeit des Verfahrens
