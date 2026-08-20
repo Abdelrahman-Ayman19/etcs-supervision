@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
+first_selenium.py
 
 # macOS
 .DS_Store
