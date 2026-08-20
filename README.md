@@ -29,9 +29,9 @@ automatisierten Testlauf hängen.
 
 ## Dateien
 
-- `etcs_supervision.py` — Kurven, Verletzungserkennung, Fahrtsimulation, CSV
-- `test_etcs_supervision.py` — die Tests
-- `plot_run.py` — Auswertung, Report, Grafik
+- `etcs_supervision.py` : Kurven, Verletzungserkennung, Fahrtsimulation, CSV
+- `test_etcs_supervision.py` : die Tests
+- `plot_run.py` : Auswertung, Report, Grafik
 
 ## Wie die Kurven zustande kommen
 
@@ -89,8 +89,8 @@ Selenium hatte ich vorher nicht benutzt, deshalb ist hier zusätzlich ein kleine
 Browser-Test gegen die offizielle Übungsseite von Selenium. Er läuft über dasselbe
 `unittest` wie die Fachlogik.
 
-- `web_form_page.py` — Page Object: alle Locator an einer Stelle, Waits in den Methoden
-- `test_web_form.py` — der Test
+- `web_form_page.py` : Page Object: alle Locator an einer Stelle, Waits in den Methoden
+- `test_web_form.py` : der Test
 
 ```bash
 python -m unittest test_web_form        # headless
